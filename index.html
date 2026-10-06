@@ -209,8 +209,8 @@ td.tot{font-weight:800}
 #qrbox img,#qrbox canvas{display:block;width:72px;height:72px}
 .toast{position:fixed;top:calc(env(safe-area-inset-top,0px) + 14px);left:50%;transform:translate(-50%,-140%);z-index:30;
   background:linear-gradient(90deg,var(--gold),var(--orange));color:#2a1400;font-weight:800;padding:10px 20px;border-radius:999px;
-  box-shadow:0 10px 30px rgba(0,0,0,.35);transition:transform .5s cubic-bezier(.2,1.4,.4,1)}
-.toast.show{transform:translate(-50%,0)}
+  box-shadow:0 10px 30px rgba(0,0,0,.35);visibility:hidden;transform:translate(-50%,-220%);transition:transform .5s cubic-bezier(.2,1.4,.4,1),visibility 0s .5s}
+.toast.show{transform:translate(-50%,0);visibility:visible;transition:transform .5s cubic-bezier(.2,1.4,.4,1)}
 @media (max-width:900px){ .qr{display:none} }
 .live.off{color:var(--muted);background:rgba(255,255,255,.08)} .live.off i{background:var(--muted);animation:none}
 </style>

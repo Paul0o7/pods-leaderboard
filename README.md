@@ -8,6 +8,8 @@ Organizers type points into a spreadsheet. Every phone, laptop, and TV with the 
 
 ![PODS Olympics leaderboard podium](screenshot.png)
 
+<sub>Screenshot shows sample scores.</sub>
+
 ---
 
 ## What is PODS Olympics?
@@ -72,6 +74,8 @@ pods-leaderboard/
 │   └── Index.html                      Backup version of the board served by Google
 ├── template/
 │   └── PODS_Olympics_Live_Leaderboard.xlsx   Starter workbook with setup instructions
+├── screenshot.png
+├── LICENSE
 └── README.md
 ```
 
